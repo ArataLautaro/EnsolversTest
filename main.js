@@ -43,7 +43,7 @@ function showTasks(){
     todoList.innerHTML = newLiTag;
     inputBox.value='';
 }
-//✓
+
 
 function deleteTask(index){
     let getLocalStorage = localStorage.getItem("New Todo");
